@@ -41,7 +41,8 @@ const Timer: FC<TimerProps> = ({currentPlayer, restart}) => {
 
     return (
         <div style={{marginRight: '24px'}}>
-            <Button variant="outlined" onClick={handleRestart} sx={{mb: '16px'}}>Restart game</Button>
+            <Button variant="outlined" color="warning" onClick={handleRestart} sx={{mb: '16px'}}>Restart
+                game</Button>
             <Paper elevation={3} sx={{p: '12px', mb: '16px'}}>
                 <Typography sx={{textTransform: 'uppercase', fontWeight: '700'}}>
                     Black - {blackTime}

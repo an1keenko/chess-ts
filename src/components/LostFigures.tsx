@@ -15,7 +15,7 @@ const LostFigures: FC<LostFiguresProps> = ({title, figures}) => {
             alignItems: 'center',
             p: '24px',
             height: "calc(50vh - 60px)",
-            backgroundColor: '#f5f5f5',
+            backgroundColor: 'rgba(245, 245, 245, 0.5)',
         }}>
             <Typography variant="h6" sx={{fontWeight: 700}}>{title}</Typography>
             {figures.map(figure =>

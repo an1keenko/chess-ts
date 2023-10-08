@@ -44,7 +44,7 @@ const BoardComponent: FC<BoardProps> = ({board, setBoard, currentPlayer, swapPla
 
     return (
         <div>
-            <Typography variant="h6" sx={{pb: '8px', fontWeight: 500}}>Current
+            <Typography variant="h6" sx={{pb: '8px', fontWeight: 700}}>Current
                 player: <u style={{fontWeight: 700}}>{currentPlayer?.color}</u></Typography>
             <div className="board">
                 {board.cells.map((row, index) =>
